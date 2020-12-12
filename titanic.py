@@ -41,12 +41,12 @@ model = LogisticRegression()
 model.fit(train_features, train_labels)
 
 # Score the model on the train data
-#print(model.score(train_features, train_labels))
-#print(model.coef_)
-# Score the model on the test data
+print(model.score(train_features, train_labels))
+print(model.coef_)
+# Scoreing the model on the test data
 
-#print(model.score(test_features, test_labels))
-#print(model.coef_)
+print(model.score(test_features, test_labels))
+print(model.coef_)
 
 # Analyze the coefficients
 
